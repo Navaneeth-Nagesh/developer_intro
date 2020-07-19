@@ -8,7 +8,7 @@ var typewriter_header = new Typewriter(app_header, {
     deleteSpeed: 5
 });
 
-typewriter_header.pauseFor(7500).typeString("Hey there, I'm Navaneeth.")
+typewriter_header.typeString("Hey there, I'm Navaneeth.")
     .pauseFor(2500)
     .deleteAll()
     .typeString("I'm a software developer.")
@@ -31,7 +31,7 @@ var typewriter_subheader = new Typewriter(app_subheader, {
     delay: 4
 });
 
-typewriter_subheader.pauseFor(7500).pauseFor(1000)
+typewriter_subheader.pauseFor(1000)
     .typeString("Nice to meet you.")
     .pauseFor(2500)
     .deleteAll()
